@@ -10,7 +10,7 @@ function Cards (){
 
         let myArray = [];
         
-        for (let i = 0; i < 10; i++) {
+        for (let i = 0; i < 12; i++) {
             const {data} = await axios.get('https://www.thecocktaildb.com/api/json/v1/1/random.php');
             let {drinks} = data
             console.log(drinks[0]);
